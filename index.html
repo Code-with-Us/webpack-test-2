@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Webpack Test 6</title>
+
+</head>
+
+<body>
+
+    <p>We've initialized our project and installed webpack, webpack-cli, and webpack-dev-server. </p>
+
+    <p>We have an html.index file and a 'src' directory in which we've placed our index.js file. index.js contains very little, other than an import of a second JS file, also in the src directory, called hello.js. </p>
+
+    <p>Now run 'npx webpack-dev-server.' This command will serve our page to port 8080.</p>
+
+    <p>Notice that we don't yet see the console.log message, "Hello, Julian!" In order to see our script in action, we'll need to return to index.html and insert a script tag to import main.js. Because webpack-dev-server serves the bundled JS from the root directory, the path to main.js is simply "main.js." </p>
+
+    <p>Notice that starting the dev server did not build a "dist" directory or a "main.js" file within the dist directory. webpack-dev-server serves the bundled JS file from memory, not from a directory.</p>
+
+    <p>We can now make changes to our JS files and see them reflected in our pages immediately without any re-build or manual page reload. However, changes to files that are not bundled in main.js will still require a reload.</p>
+
+    <p></p>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
