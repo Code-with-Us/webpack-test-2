@@ -1,6 +1,6 @@
 # README
 
-In this second test, we'll use webpack-dev-server, and as before, we will not use a config file.
+In this second test, we'll use webpack-dev-server.
     
 We've initialized our project and installed webpack, webpack-cli, and webpack-dev-server. 
 
